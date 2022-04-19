@@ -2,21 +2,21 @@
 
 export default function LeftSection() {
     return (
-      <div className="bg-[#1F2937] w-[100%] mt-[12px] pt-[24px] pb-[94px]  rounded-r-[12px]  ">
+      <div className="bg-[#1F2937] w-[31%] mt-[12px] pt-[24px] pb-[94px]  rounded-r-[12px]  ">
          <div className="  flex-col border-b-[1px] border-[#374151]   ">
              <div className="flex">
              <img src="./Images/Li.svg" alt=" " className="ml-5" />
-             <h1 className="text-[#9CA3AF] ml-[8px]">Home</h1>
+             <button className="text-[#9CA3AF] ml-[8px]">Home</button>
 
              </div>
              <div className="flex mt-[25px]">
              <img src="./Images/Li2.svg" alt=" " className="ml-5" />
-             <h1 className="text-[#9CA3AF] ml-[8px] ">Explore</h1>
+             <button className="text-[#9CA3AF] ml-[8px] ">Explore</button>
 
              </div>
              <div className="bg-[#0284C7] rounded-[12px] w-full h-[48px] flex justify-start items-center my-[12px]">
              <img src="./Images/Li3.svg" alt=" " className="ml-5" />
-             <h1 className="text-[#F9FAFB] ml-[8px]">Leaderboard</h1>
+             <button className="text-[#F9FAFB] ml-[8px]">Leaderboard</button>
 
              </div>
        

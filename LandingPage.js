@@ -7,11 +7,11 @@ export default function LandingPage() {
   return (
     <div className="mx-auto container ">
       <Header />
-      <div className="flex  ">
-        <div className="w-[50%]">
+      <div className="flex space-x-[32px]  ">
+        
         <LeftSection />
 
-        </div>
+       
       
 
        
@@ -19,10 +19,10 @@ export default function LandingPage() {
       
       
 
- <div className="w-[100%]  pl-10">
+ 
  <MainSection />
 
- </div>
+ 
      
 
      
