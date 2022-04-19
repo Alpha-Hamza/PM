@@ -2,7 +2,7 @@
 
 export default function MainSection() {
     return (
-      <div className="bg-[#1F2937]  w-[100%] mt-[12px] pb-[33%] rounded-[12px] ">
+      <div className="bg-[#1F2937]  w-[100%] mt-[12px] pb-[33%] rounded-[12px]  ">
           <div className="mx-auto container">
               <div className="flex justify-center  items-center border-[#374151] border-b-[1px]">
                   <h1 className="text-[30px] font-semibold text-[#F9FAFB] my-[32px]">Leaderboard</h1>
