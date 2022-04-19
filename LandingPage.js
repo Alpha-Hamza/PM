@@ -19,7 +19,7 @@ export default function LandingPage() {
       
       
 
- <div className="w-[90%]  pl-10">
+ <div className="w-[100%]  pl-10">
  <MainSection />
 
  </div>
