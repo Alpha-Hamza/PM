@@ -2,7 +2,7 @@
 
 export default function LeftSection() {
     return (
-      <div className="bg-[#1F2937] max-w-[20%]   ">
+      <div className="bg-[#1F2937] w-[100%] mt-[12px] pt-[24px] pb-[94px]  rounded-r-[12px]  ">
          <div className="  flex-col border-b-[1px] border-[#374151]   ">
              <div className="flex">
              <img src="./Images/Li.svg" alt=" " className="ml-5" />

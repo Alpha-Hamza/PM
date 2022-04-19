@@ -2,7 +2,7 @@
 
 export default function Header() {
   return (
-    <div className="bg-[#1F2937] rounded-[12px] ">
+    <div className="bg-[#1F2937] rounded-[12px] mt-[12px] ">
        <div className=" mx-auto container max-w-[90%] flex ">
       <img src="./Images/Hi.svg" alt=" " className="cursor-pointer" />
       <img src="./Images/Logo.svg" alt=" " className="ml-[29px]" />
