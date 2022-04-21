@@ -22,7 +22,7 @@ export default function LandingPage() {
       
       
 
- <div className="w-full">
+ <div className="xl:w-full w-[30%]">
 
  <MainSection />
  

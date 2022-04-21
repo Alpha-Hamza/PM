@@ -2,8 +2,8 @@
 
 export default function LastSection() {
     return (
-      <div className="bg-[#1F2937] ml-8 rounded-[12px] my-[22px]  py-10  ">
-          <div className="mx-auto container max-w-[90%]">
+      <div className="bg-[#1F2937] ml-8 rounded-[12px] my-[22px]  py-10  2xl:w-auto lg:w-[90%]  ">
+          <div className="mx-auto container 2xl:w-[90%]">
           <table className="table-auto  w-full  ">
           <thead className="">
               
