@@ -37,16 +37,18 @@ export default function MainSection() {
             </thead>
             <tbody>
               
-              <tr className="relative bg-[#0EA5E9]  rounded-[12px]   ">
+              <tr className="relative hover:bg-[#0EA5E9]  rounded-[12px]   ">
              
-                <td className="text-[14px] text-[#FFFFFF] pl-[28px]   ">#1</td>
-                <div className="flex items-center ">
-                  <td className="flex items-center space-x-[8px] ml-[30px] h-[70px]   ">
-                    <img src="./Images/Mi.svg" alt=" " className="" />
-                    <img src="./Images/Mi1.svg" alt=" " className="" />
-                    <h1 className="text-[14px] text-[#FFFFFF]">Rick_291</h1>
-                  </td>
-                </div>
+                <td className="text-[14px] text-[#FFFFFF] pl-[28px]   rounded-l-[12px]
+                  ">#1</td>
+                <td className="   pl-[30px] ">
+                 <div className="flex  items-center h-[70px] space-x-[8px]">
+
+                 <img src="./Images/Mi.svg" alt=" " className="" />
+                 <img src="./Images/Mi1.svg" alt=" " className="" />
+                 <h1 className="text-[14px] text-[#FFFFFF]">Rick_291</h1>
+                 </div>
+               </td>
 
                 <td className="text-[14px] text-[#FFFFFF] pl-[58px]  ">
                   12/01/21
@@ -55,32 +57,50 @@ export default function MainSection() {
                 <td className="text-[14px] text-[#FFFFFF] pl-[70px] ">
                   45h 12m
                 </td>
-                <div className="h-[70px] flex  items-center">
-                  <td className="flex  items-center pl-[100px]   ">
-                    <img src="./Images/Mi4.svg" alt=" " className="" />
+                <td className="flex justify-center  pl-[100px]   ">
+                 <div className="flex justify-center items-center h-[70px]">
+                 <img src="./Images/Mi4.svg" alt=" " className="" />
 
-                    <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
-                      +9 more
-                    </p>
-                  </td>
-                </div>
+                 <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
+                 +9 more
+                 </p>
 
-                <td className="text-[14px] text-[#FFFFFF] pl-[75px] ">6,271</td>
-                <td className="flex justify-center items-center border-2 rounded-full w-[46px] h-[46px] mx-[35px]  ">
+                 </div>
+               </td>
+             
+
+                <td className="text-[14px] text-[#FFFFFF] pl-[55px] ">
+             <div className="w-[77px] h-[36px] bg-[#374151] flex justify-center items-center rounded-[8px]">
+             780
+               
+               </div>
+               </td>
+                
+                <td className="rounded-r-[12px] ">
+                  <div className="flex justify-center items-center rounded-full w-[46px] h-[46px] mx-[35px] hover:bg-[#111827] bg-[#374151]   ">
                   <img src="./Images/Mi3.svg" alt=" " className="" />
+
+                  </div>
+                 
+                  
+                  
                 </td>
+
+               
+               
                 
               </tr>
-              <tr className="relative   ">
+              <tr className="relative hover:bg-[#0EA5E9]   ">
              
-                <td className="text-[14px] text-[#FFFFFF] pl-[28px]   ">#2</td>
-                <div className="flex items-center ">
-                  <td className="flex items-center space-x-[8px] ml-[30px] h-[70px]   ">
-                    <img src="./Images/Mi5.svg" alt=" " className="" />
-                    <img src="./Images/Mi6.svg" alt=" " className="" />
-                    <h1 className="text-[14px] text-[#FFFFFF]">Joyce64</h1>
-                  </td>
-                </div>
+                <td className="text-[14px] text-[#FFFFFF] pl-[28px] rounded-l-[12px]   ">#2</td>
+                <td className="   pl-[30px] ">
+                 <div className="space-x-[8px] flex  items-center h-[70px]">
+
+                 <img src="./Images/Mi5.svg" alt=" " className="" />
+                 <img src="./Images/Mi6.svg" alt=" " className="" />
+                 <h1 className="text-[14px] text-[#FFFFFF]">Joyce64</h1>
+                 </div>
+               </td>
 
                 <td className="text-[14px] text-[#FFFFFF] pl-[58px]  ">
                   12/01/21
@@ -89,35 +109,46 @@ export default function MainSection() {
                 <td className="text-[14px] text-[#FFFFFF] pl-[70px] ">
                 43h 10m
                 </td>
-                <div className="h-[70px] flex  items-center">
-                  <td className="flex  items-center pl-[100px]   ">
-                    <img src="./Images/Mi4.svg" alt=" " className="" />
+                <td className="flex justify-center  pl-[100px]   ">
+                 <div className="flex justify-center items-center h-[70px]">
+                 <img src="./Images/Mi4.svg" alt=" " className="" />
 
-                    <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
-                    +8 more
-                    </p>
-                  </td>
-                </div>
+                 <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
+                 +8 more
+                 </p>
+
+                 </div>
+               </td>
+             
                
-                <td className="text-[14px] text-[#FFFFFF] pl-[75px]    ">5,238</td>
+                <td className="text-[14px] text-[#FFFFFF] pl-[55px] ">
+             <div className="w-[77px] h-[36px] bg-[#374151] flex justify-center items-center rounded-[8px]">
+             780
+               
+               </div>
+               </td>
                   
               
                 
-                <td className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px]  bg-[#374151] ">
+                <td className="rounded-r-[12px]  ">
+                  <div className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] hover:bg-[#111827] bg-[#374151]   ">
                   <img src="./Images/Mi3.svg" alt=" " className="" />
-                </td>
+
+                  </div>
+                  </td>
                 
               </tr>
-              <tr className="relative   ">
+              <tr className="relative hover:bg-[#0EA5E9]  ">
              
-             <td className="text-[14px] text-[#FFFFFF] pl-[28px]   ">#3</td>
-             <div className="flex items-center ">
-               <td className="flex items-center space-x-[8px] ml-[30px] h-[70px]   ">
+             <td className="text-[14px] text-[#FFFFFF] pl-[28px] rounded-l-[12px]   ">#3</td>
+             <td className="  pl-[30px] ">
+                 <div className="space-x-[8px]  flex  items-center h-[70px]">
+
                  <img src="./Images/Mi7.svg" alt=" " className="" />
                  <img src="./Images/Mi8.svg" alt=" " className="" />
                  <h1 className="text-[14px] text-[#FFFFFF]">Kaya.Feil</h1>
+                 </div>
                </td>
-             </div>
 
              <td className="text-[14px] text-[#FFFFFF] pl-[58px]  ">
                12/01/21
@@ -126,32 +157,43 @@ export default function MainSection() {
              <td className="text-[14px] text-[#FFFFFF] pl-[70px] ">
              42h 12m
              </td>
-             <div className="h-[70px] flex  items-center">
-               <td className="flex  items-center pl-[100px]   ">
+             <td className="flex justify-center  pl-[100px]   ">
+                 <div className="flex justify-center items-center h-[70px]">
                  <img src="./Images/Mi4.svg" alt=" " className="" />
 
                  <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
                  +7 more
                  </p>
-               </td>
-             </div>
 
-             <td className="text-[14px] text-[#FFFFFF] pl-[75px] ">4,533</td>
-             <td className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px]  bg-[#374151]">
-               <img src="./Images/Mi3.svg" alt=" " className="" />
-             </td>
+                 </div>
+               </td>
+             
+
+             <td className="text-[14px] text-[#FFFFFF] pl-[55px] ">
+             <div className="w-[77px] h-[36px] bg-[#374151] flex justify-center items-center rounded-[8px]">
+             780
+               
+               </div>
+               </td>
+             <td className="rounded-r-[12px] ">
+                  <div className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] hover:bg-[#111827] bg-[#374151]    ">
+                  <img src="./Images/Mi3.svg" alt=" " className="" />
+
+                  </div>
+                  </td>
              
            </tr>
-           <tr className="relative   ">
+           <tr className="relative hover:bg-[#0EA5E9]  ">
              
-             <td className="text-[14px] text-[#FFFFFF] pl-[28px]   ">#4</td>
-             <div className="flex items-center ">
-               <td className="flex items-center space-x-[8px] ml-[30px] h-[70px]   ">
+             <td className="text-[14px] text-[#FFFFFF] pl-[28px]  rounded-l-[12px]  ">#4</td>
+             <td className="   pl-[30px] ">
+                 <div className="space-x-[8px] flex r items-center h-[70px]">
+
                  <img src="./Images/Mi5.svg" alt=" " className="" />
                  <img src="./Images/Mi9.svg" alt=" " className="" />
                  <h1 className="text-[14px] text-[#FFFFFF]">Julien72</h1>
+                 </div>
                </td>
-             </div>
 
              <td className="text-[14px] text-[#FFFFFF] pl-[58px]  ">
                12/01/21
@@ -160,32 +202,44 @@ export default function MainSection() {
              <td className="text-[14px] text-[#FFFFFF] pl-[70px] ">
              41h 02m
              </td>
-             <div className="h-[70px] flex  items-center">
-               <td className="flex  items-center pl-[100px]   ">
+             <td className="flex justify-center  pl-[100px]   ">
+                 <div className="flex justify-center items-center h-[70px]">
                  <img src="./Images/Mi4.svg" alt=" " className="" />
 
                  <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
                  +6 more
                  </p>
-               </td>
-             </div>
 
-             <td className="text-[14px] text-[#FFFFFF] pl-[75px] ">4,255</td>
-             <td className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] bg-[#374151]  ">
-               <img src="./Images/Mi3.svg" alt=" " className="" />
-             </td>
+                 </div>
+               </td>
+             
+
+             <td className="text-[14px] text-[#FFFFFF] pl-[55px] ">
+             <div className="w-[77px] h-[36px] bg-[#374151] flex justify-center items-center rounded-[8px]">
+             780
+               
+               </div>
+               </td>
+             <td className="rounded-r-[12px] ">
+                  <div className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] hover:bg-[#111827] bg-[#374151]   ">
+                  <img src="./Images/Mi3.svg" alt=" " className="" />
+
+                  </div>
+                  </td>
              
            </tr>
-           <tr className="relative   ">
+           <tr className="relative  hover:bg-[#0EA5E9] ">
              
-             <td className="text-[14px] text-[#FFFFFF] pl-[28px]   ">#5</td>
-             <div className="flex items-center ">
-               <td className="flex items-center space-x-[8px] ml-[30px] h-[70px]   ">
+             <td className="text-[14px] text-[#FFFFFF] pl-[28px] rounded-l-[12px]  ">#5</td>
+             <td className="   pl-[30px] ">
+                 <div className="space-x-[8px] flex  items-center h-[70px]">
+
                  <img src="./Images/Mi7.svg" alt=" " className="" />
                  <img src="./Images/Mi10.svg" alt=" " className="" />
                  <h1 className="text-[14px] text-[#FFFFFF]">Arthur.Osinski</h1>
+                 </div>
                </td>
-             </div>
+             
 
              <td className="text-[14px] text-[#FFFFFF] pl-[58px]  ">
                12/01/21
@@ -194,32 +248,43 @@ export default function MainSection() {
              <td className="text-[14px] text-[#FFFFFF] pl-[70px] ">
              40h 01m
              </td>
-             <div className="h-[70px] flex  items-center">
-               <td className="flex  items-center pl-[100px]   ">
+             <td className="flex justify-center  pl-[100px]   ">
+                 <div className="flex justify-center items-center h-[70px]">
                  <img src="./Images/Mi4.svg" alt=" " className="" />
 
                  <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
                  +5 more
                  </p>
-               </td>
-             </div>
 
-             <td className="text-[14px] text-[#FFFFFF] pl-[75px] ">4,160</td>
-             <td className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] bg-[#374151] ">
-               <img src="./Images/Mi3.svg" alt=" " className="" />
-             </td>
+                 </div>
+               </td>
+             
+
+             <td className="text-[14px] text-[#FFFFFF] pl-[55px] ">
+             <div className="w-[77px] h-[36px] bg-[#374151] flex justify-center items-center rounded-[8px]">
+             780
+               
+               </div>
+               </td>
+             <td className="rounded-r-[12px] ">
+                  <div className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] hover:bg-[#111827] bg-[#374151]   ">
+                  <img src="./Images/Mi3.svg" alt=" " className="" />
+
+                  </div>
+                  </td>
              
            </tr>
-           <tr className="relative   ">
+           <tr className="relative  hover:bg-[#0EA5E9] ">
              
-             <td className="text-[14px] text-[#FFFFFF] pl-[28px]   ">#6</td>
-             <div className="flex items-center ">
-               <td className="flex items-center space-x-[8px] ml-[30px] h-[70px]   ">
+             <td className="text-[14px] text-[#FFFFFF] pl-[28px] rounded-l-[12px]  ">#6</td>
+             <td className="   pl-[30px] ">
+                 <div className="space-x-[8px] flex  items-center h-[70px]">
+
                  <img src="./Images/Mi5.svg" alt=" " className="" />
                  <img src="./Images/Mi11.svg" alt=" " className="" />
                  <h1 className="text-[14px] text-[#FFFFFF]">Pearl_Doyle</h1>
+                 </div>
                </td>
-             </div>
 
              <td className="text-[14px] text-[#FFFFFF] pl-[58px]  ">
                12/01/21
@@ -228,32 +293,43 @@ export default function MainSection() {
              <td className="text-[14px] text-[#FFFFFF] pl-[70px] ">
              39h 12m
              </td>
-             <div className="h-[70px] flex  items-center">
-               <td className="flex  items-center pl-[100px]   ">
+             <td className="flex justify-center  pl-[100px]   ">
+                 <div className="flex justify-center items-center h-[70px]">
                  <img src="./Images/Mi4.svg" alt=" " className="" />
 
                  <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
                  +4 more
                  </p>
-               </td>
-             </div>
 
-             <td className="text-[14px] text-[#FFFFFF] pl-[75px] ">4,000</td>
-             <td className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] bg-[#374151] ">
-               <img src="./Images/Mi3.svg" alt=" " className="" />
-             </td>
+                 </div>
+               </td>
+             
+
+             <td className="text-[14px] text-[#FFFFFF] pl-[55px] ">
+             <div className="w-[77px] h-[36px] bg-[#374151] flex justify-center items-center rounded-[8px]">
+             780
+               
+               </div>
+               </td>
+             <td className="rounded-r-[12px] ">
+                  <div className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px]  hover:bg-[#111827] bg-[#374151]   ">
+                  <img src="./Images/Mi3.svg" alt=" " className="" />
+
+                  </div>
+                  </td>
              
            </tr>
-           <tr className="relative   ">
+           <tr className="relative  hover:bg-[#0EA5E9] ">
              
-             <td className="text-[14px] text-[#FFFFFF] pl-[28px]   ">#7</td>
-             <div className="flex items-center ">
-               <td className="flex items-center space-x-[8px] ml-[30px] h-[70px]   ">
+             <td className="text-[14px] text-[#FFFFFF] pl-[28px] rounded-l-[12px]  ">#7</td>
+             <td className="  pl-[30px] ">
+                 <div className=" space-x-[8px] flex  items-center h-[70px]">
+
                  <img src="./Images/Mi5.svg" alt=" " className="" />
                  <img src="./Images/Mi12.svg" alt=" " className="" />
                  <h1 className="text-[14px] text-[#FFFFFF]">David29</h1>
+                 </div>
                </td>
-             </div>
 
              <td className="text-[14px] text-[#FFFFFF] pl-[58px]  ">
                12/01/21
@@ -262,20 +338,29 @@ export default function MainSection() {
              <td className="text-[14px] text-[#FFFFFF] pl-[70px] ">
              38h 16m
              </td>
-             <div className="h-[70px] flex  items-center">
-               <td className="flex  items-center pl-[100px]   ">
+             <td className="flex justify-center  pl-[100px]   ">
+                 <div className="flex justify-center items-center h-[70px]">
                  <img src="./Images/Mi4.svg" alt=" " className="" />
 
                  <p className="text-[14px] text-[#FFFFFF] opacity-[50%] pl-[5px] ">
                  +3 more
                  </p>
-               </td>
-             </div>
 
-             <td className="text-[14px] text-[#FFFFFF] pl-[75px] ">3,938</td>
-             <td className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] bg-[#374151]  ">
-               <img src="./Images/Mi3.svg" alt=" " className="" />
-             </td>
+                 </div>
+               </td>
+             
+             <td className="text-[14px] text-[#FFFFFF] pl-[55px] ">
+             <div className="w-[77px] h-[36px] bg-[#374151] flex justify-center items-center rounded-[8px]">
+             780
+               
+               </div>
+               </td>
+             <td className="rounded-r-[12px] ">
+                  <div className="flex justify-center items-center  rounded-full w-[46px] h-[46px] mx-[35px] hover:bg-[#111827] bg-[#374151]    ">
+                  <img src="./Images/Mi3.svg" alt=" " className="" />
+
+                  </div>
+                  </td>
              
            </tr>
               
